@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <style>
+        canvas {
+            border: 1px solid #000;
+            background-color: #fff;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Canvas</h1>
+    <canvas id="myCanvas" width="600" height="400"></canvas>
+        <script>
+            var canvas = document.getElementById('myCanvas');
+            var ctx = canvas.getContext('2d');
+            function drawRectangle(x, y, width, height, color) {
+            ctx.fillStyle = color;
+            ctx.fillRect(x, y, width, height);
+        }
+
+        // Function to draw a line
+        function drawLine(x1, y1, x2, y2, color, lineWidth) {
+            ctx.strokeStyle = color;
+            ctx.lineWidth = lineWidth;
+            ctx.beginPath();
+            ctx.moveTo(x1, y1);
+            ctx.lineTo(x2, y2);
+            ctx.stroke();
+        }
+
+        // Function to draw a circle
+        function drawCircle(x, y, radius, color, lineWidth) {
+            ctx.strokeStyle = color;
+            ctx.lineWidth = lineWidth;
+            ctx.beginPath();
+            ctx.arc(x, y, radius, 0, Math.PI * 2, false);
+            ctx.stroke();
+        }
+
+        // Draw objects on the canvas
+        drawRectangle(50, 50, 200, 100, 'lightblue');
+        drawLine(300, 50, 500, 200, 'red', 5);
+        drawCircle(400, 300, 75, 'green', 4);
+        </script>
+    </canvas>
+</body>
+</html>
