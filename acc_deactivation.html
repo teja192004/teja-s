@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Account Deactivation</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        .all{
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            margin:20%;
+            margin-top: 250px;
+
+        }
+        .a{
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 3px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        button {
+            border-radius: 3px;
+        }
+        }
+    </style>
+</head>
+<body>
+        <h2>Deactivate Account</h2>
+        <form action="/submit-deactivation" method="post">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="reason">Reason for Deactivation</label>
+                <select id="reason" name="reason" required>
+                    <option value="r1">Select a reason</option>
+                    <option value="r1">Privacy concerns</option>
+                    <option value="r1">Not finding it useful</option>
+                    <option value="r1">Too distracting</option>
+                    <option value="r1">Other</option>
+                </select>
+                <label for="comments">Additional Comments</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            <button type="submit">Deactivate</button>
+        </form>
+</body>
+</html>

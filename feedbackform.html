@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>FEEDBACK FORM</title>
+    <style>
+        h1,h3{
+            text-align: center;
+        }
+        body{
+            background-color: aliceblue;
+            text-align: center;
+            margin:10%;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <h1>Course Evaluation</h1>
+    <h3>Please provide some feedback about the course you took.</h3>
+    <form>
+        <p>Full name:<input type="text" name="Full name" placeholder="Name?" required></p><br>
+        <p>Which course did you attended?<br><label for="Courses">Courses:</label>
+        <select name="Courses" id="Courses">
+            <option value="c1">Python</option>
+            <option value="c1">Java</option>
+            <option value="c1">HTML</option>
+            <option value="c1">Javascript</option>
+        </select></p>
+        <p>Instructor:<br>
+        <select  name="Name" id="Name">
+            <option value="i1">mary</option>
+            <option value="i2">dustin</option>
+            <option value="i3">lucus</option>
+            <option value="i4">Jenny</option>
+        </select></p>
+        <h4>Please rate the following:</h4>
+        <p>Instruction methods:
+        <input type="radio" id="good" name="rating">
+        <label for="good">Good</label>
+        <input type="radio" id="average" name="rating">
+        <label for="average">Average</label>
+        <input type="radio" id="bad" name="rating">
+        <label for="bad">Bad</label>
+        </p>
+        <p>Course usefulness:
+        <input type="radio" id="good" name="rating2">
+        <label for="good">Good</label>
+        <input type="radio" id="average" name="rating2">
+        <label for="average">Average</label>
+        <input type="radio" id="bad" name="rating2">
+        <label for="bad">Bad</label>
+        </p>
+        <h4>Additional Comments:</h4>
+        <textarea cols="50"></textarea>
+        <p style="text-align: center"><b>Thank you!!</b></p>
+        <b><p style="text-align: center"><input type="submit"></p></b>
+     </form>
+    </fieldset>
+</body>
+</html>
