@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Form Responses 1 (mydata)' inline='true' name='federated.1nkerlh1hbr8l313ra9iy0j621ar' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='mydata' name='excel-direct.0hc96ym0sfxl7z1cvnn9x0j4j3xu'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Teja/Desktop/mydata.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0hc96ym0sfxl7z1cvnn9x0j4j3xu' name='Form Responses 1' table='[&apos;Form Responses 1$&apos;]' type='table'>
+          <columns gridOrigin='A1:G1604:no:A1:G1604:0' header='yes' outcome='2'>
+            <column datatype='datetime' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='College Name' ordinal='1' />
+            <column datatype='string' name='Candidate Name' ordinal='2' />
+            <column datatype='string' name='College Mail ID (Eg: Rollnumber@mbu.asia)' ordinal='3' />
+            <column datatype='string' name='Personal Email ID' ordinal='4' />
+            <column datatype='string' name='Roll No' ordinal='5' />
+            <column datatype='string' name='Graduation Stream' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G1604:no:A1:G1604:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Form Responses 1_03A37F7FC9DA4D55BF053EF2511FD386]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>College Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[College Name]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>College Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Form Responses 1_03A37F7FC9DA4D55BF053EF2511FD386]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Candidate Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Candidate Name]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Candidate Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Form Responses 1_03A37F7FC9DA4D55BF053EF2511FD386]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>College Mail ID (Eg: Rollnumber@mbu.asia)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[College Mail ID (Eg: Rollnumber@mbu.asia)]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>College Mail ID (Eg: Rollnumber@mbu.asia)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Form Responses 1_03A37F7FC9DA4D55BF053EF2511FD386]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Personal Email ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Personal Email ID]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Personal Email ID</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Form Responses 1_03A37F7FC9DA4D55BF053EF2511FD386]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Roll No</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Roll No]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Roll No</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Form Responses 1_03A37F7FC9DA4D55BF053EF2511FD386]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Graduation Stream</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Graduation Stream]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Graduation Stream</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Form Responses 1_03A37F7FC9DA4D55BF053EF2511FD386]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Form Responses 1' datatype='table' name='[__tableau_internal_object_id__].[Form Responses 1_03A37F7FC9DA4D55BF053EF2511FD386]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Form Responses 1' id='Form Responses 1_03A37F7FC9DA4D55BF053EF2511FD386'>
+            <properties context=''>
+              <relation connection='excel-direct.0hc96ym0sfxl7z1cvnn9x0j4j3xu' name='Form Responses 1' table='[&apos;Form Responses 1$&apos;]' type='table'>
+                <columns gridOrigin='A1:G1604:no:A1:G1604:0' header='yes' outcome='2'>
+                  <column datatype='datetime' name='Timestamp' ordinal='0' />
+                  <column datatype='string' name='College Name' ordinal='1' />
+                  <column datatype='string' name='Candidate Name' ordinal='2' />
+                  <column datatype='string' name='College Mail ID (Eg: Rollnumber@mbu.asia)' ordinal='3' />
+                  <column datatype='string' name='Personal Email ID' ordinal='4' />
+                  <column datatype='string' name='Roll No' ordinal='5' />
+                  <column datatype='string' name='Graduation Stream' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='hearing_test(1)' inline='true' name='federated.0wm8a3a0a8rwvn1fy0zy20vw2gfv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='hearing_test(1)' name='textscan.1rjvmgj0b6n3sx13vizqm0i79yt9'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:\Users\Teja\Desktop\b tech\sem 6\ai\hearing_test(1).csv' dataRefreshTime='' directory='C:/Users/Teja/Desktop/b tech/sem 6/ai' filename='C:/Users/Teja/AppData/Local/Temp/TableauTemp/01dpwkt1plnvpu1a9dzvz0jm4c0b/hearing_test(1).csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1rjvmgj0b6n3sx13vizqm0i79yt9' name='hearing_test(1).csv' table='[C:\Users\Teja\Desktop\b tech\sem 6\ai\hearing_test(1)#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:C5001:no:A1:C5001:1' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='real' name='physical_score' ordinal='1' />
+            <column datatype='integer' name='test_result' ordinal='2' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[hearing_test(1).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C5001:no:A1:C5001:1&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[hearing_test(1).csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[hearing_test(1).csv_3D6C718776F34AA1842315703A557BE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>physical_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[physical_score]</local-name>
+            <parent-name>[hearing_test(1).csv]</parent-name>
+            <remote-alias>physical_score</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[hearing_test(1).csv_3D6C718776F34AA1842315703A557BE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>test_result</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[test_result]</local-name>
+            <parent-name>[hearing_test(1).csv]</parent-name>
+            <remote-alias>test_result</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[hearing_test(1).csv_3D6C718776F34AA1842315703A557BE0]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='hearing_test(1).csv' datatype='table' name='[__tableau_internal_object_id__].[hearing_test(1).csv_3D6C718776F34AA1842315703A557BE0]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Physical Score' datatype='real' name='[physical_score]' role='measure' type='quantitative' />
+      <column caption='Test Result' datatype='integer' name='[test_result]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Teja/AppData/Local/Temp/TableauTemp/#TableauTemp_1hgm8uu09p85n8167lmac04fdfu3.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/15/2025 05:44:46 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age</remote-alias>
+              <ordinal>0</ordinal>
+              <family>hearing_test(1).csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[hearing_test(1).csv_3D6C718776F34AA1842315703A557BE0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>physical_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[physical_score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>physical_score</remote-alias>
+              <ordinal>1</ordinal>
+              <family>hearing_test(1).csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>440</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[hearing_test(1).csv_3D6C718776F34AA1842315703A557BE0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>test_result</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[test_result]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>test_result</remote-alias>
+              <ordinal>2</ordinal>
+              <family>hearing_test(1).csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[hearing_test(1).csv_3D6C718776F34AA1842315703A557BE0]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='hearing_test(1).csv' id='hearing_test(1).csv_3D6C718776F34AA1842315703A557BE0'>
+            <properties context=''>
+              <relation connection='textscan.1rjvmgj0b6n3sx13vizqm0i79yt9' name='hearing_test(1).csv' table='[C:\Users\Teja\Desktop\b tech\sem 6\ai\hearing_test(1)#csv]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:C5001:no:A1:C5001:1' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='age' ordinal='0' />
+                  <column datatype='real' name='physical_score' ordinal='1' />
+                  <column datatype='integer' name='test_result' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='hearing_test(1)' name='federated.0wm8a3a0a8rwvn1fy0zy20vw2gfv' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wm8a3a0a8rwvn1fy0zy20vw2gfv'>
+            <column-instance column='[__tableau_internal_object_id__].[hearing_test(1).csv_3D6C718776F34AA1842315703A557BE0]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:hearing_test(1).csv_3D6C718776F34AA1842315703A557BE0:qk]' pivot='key' type='quantitative' />
+            <column caption='hearing_test(1).csv' datatype='table' name='[__tableau_internal_object_id__].[hearing_test(1).csv_3D6C718776F34AA1842315703A557BE0]' role='measure' type='quantitative' />
+            <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+            <column-instance column='[age]' derivation='Sum' name='[sum:age:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[age]' derivation='Sum' name='[sum:age:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0wm8a3a0a8rwvn1fy0zy20vw2gfv].[sum:age:ok]' />
+              <wedge-size column='[federated.0wm8a3a0a8rwvn1fy0zy20vw2gfv].[__tableau_internal_object_id__].[cnt:hearing_test(1).csv_3D6C718776F34AA1842315703A557BE0:qk]' />
+              <size column='[federated.0wm8a3a0a8rwvn1fy0zy20vw2gfv].[sum:age:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B647A491-1EC2-432B-901A-1CFA5E639810}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0wm8a3a0a8rwvn1fy0zy20vw2gfv].[sum:age:ok]' type='color' />
+            <card pane-specification-id='0' param='[federated.0wm8a3a0a8rwvn1fy0zy20vw2gfv].[sum:age:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wm8a3a0a8rwvn1fy0zy20vw2gfv].[:Measure Names]</field>
+            <field>[federated.0wm8a3a0a8rwvn1fy0zy20vw2gfv].[sum:age:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A97088BD-2357-47EC-B116-E02B4CE7FCA0}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
